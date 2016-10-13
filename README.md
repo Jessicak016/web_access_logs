@@ -9,15 +9,15 @@ The file access_log.txt is an actual HTTP server log from a security researcher 
 The columns of access_log.txt have the following meanings (note the input files have no header with these names):
 
 IP: the IP address of the machine making the HTTP request
-Ignore1:  ignore this field
-Ignore2:  ignore this field
-Timestamp: the date and time the HTTP request was made
-Ignore3:  ignore this field
-HTTP_Verb: The HTTP command (typically GET or POST is used to request or send a
+- Ignore1:  ignore this field
+- Ignore2:  ignore this field
+- Timestamp: the date and time the HTTP request was made
+- Ignore3:  ignore this field
+- HTTP_Verb: The HTTP command (typically GET or POST is used to request or send a
            page or resource, respectively) followed by the URL being requested,
            followed by the HTTP Protocol version (typically 1.x).
-HTTP_Status: The status code that indicates the result of the result
+- HTTP_Status: The status code that indicates the result of the result
              (200: success, 404: page not found, etc.)
-HTTP_Duration: length of HTTP session in milliseconds
-HTTP_Redirect: can be ignored
-Browser_Type: Browser type making the request
+- HTTP_Duration: length of HTTP session in milliseconds
+- HTTP_Redirect: can be ignored
+- Browser_Type: Browser type making the request
